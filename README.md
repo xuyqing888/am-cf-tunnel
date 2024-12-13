@@ -81,7 +81,7 @@
 </details>
 
 
-## 变量说明
+## 变量说明 [视频教程](https://www.youtube.com/watch?v=ag12Rpc9KP4&t=739s)
 | 变量名 | 示例 | 必填 | 备注 | YT |
 |-----|-----|-----|-----|-----|
 | UUID             | 866853eb-5293-4f09-bf00-e13eb237c655 |✅| [在线获取UUID](https://1024tools.com/uuid)                                        |  |
@@ -89,6 +89,7 @@
 | SOCKS5           | user:password@127.0.0.1:1080         |❌| 优先作为访问CFCDN站点的SOCKS5代理                                                   | [Video](https://youtu.be/Bw82BH_ecC4) |
 | DNS_RESOLVER_URL | https://cloudflare-dns.com/dns-query |❌| DNS解析获取作用，小白勿用                                                           |  |
 | IP_LOCAL         | `icook.hk:2053#官方优选域名`           |❌| 本地优选域名/优选IP(支持多元素之间`,`或 换行 作间隔)                                 | |
+| IP_URL           | [https://raw.github.../ipUrl.txt](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/ipUrl.txt)           |❌| 优选(ipv4、ipv6、域名、API)地址(支持多个之间`,`或 换行 作间隔)      | |
 | IP_URL_TXT       | [https://raw.github.../ipv4.txt](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/ipv4.txt) |❌| 优选ipv4、ipv6、域名、API地址(支持多个之间`,`或 换行 作间隔) |[Video](https://youtu.be/dzxezRV1v-o) [Video](https://youtu.be/vX3U3FuuTT8)|
 | IP_URL_CSV       | [https://raw.github.../ipv4.csv](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/ipv4.csv) |❌| 优选ipv4/6的IP测速结果(支持多元素, 元素之间使用`,`作间隔) |[Video](https://youtu.be/vX3U3FuuTT8)|
 | NO_TLS           | true/false                           |❌| 默认false,是否开启TLS系列端口，只有workers部署才可以使非用TLS系列端口             | |
@@ -102,22 +103,18 @@
 | TG_ID           | 6946912345                            |❌ | 接收TG通知的账户数字ID                                       ||
 
 
-## 订阅工具 [点击进入视频教程](https://youtu.be/xGOL57cmvaw) [点进进入karing视频教程](https://youtu.be/M3vLLBWfuFg)
-- [(安卓)v2rayNG](https://github.com/2dust/v2rayNG/releases)      [(安卓)singbox](https://github.com/SagerNet/sing-box/releases)      [(苹果)singbox](https://github.com/SagerNet/sing-box/releases)      [(苹果)Hiddify](https://github.com/hiddify/hiddify-next/releases)
-- [(win)v2rayN](https://github.com/2dust/v2rayN/releases)      [(win)singbox](https://github.com/SagerNet/sing-box/releases)      [(win)clashvergerev](https://github.com/clash-verge-rev/clash-verge-rev/releases)      [(win)Hiddify](https://github.com/hiddify/hiddify-next/releases)      [(win)clashnyanpasu](https://github.com/LibNyanpasu/clash-nyanpasu/releases)      [(mac)clashnyanpasu](https://github.com/LibNyanpasu/clash-nyanpasu/releases)
-- [(mac)v2rayU](https://github.com/yanue/V2rayU/releases)      [(mac)singbox](https://github.com/SagerNet/sing-box/releases)      [(mac)clashvergerev](https://github.com/clash-verge-rev/clash-verge-rev/releases)      [(mac)Hiddify](https://github.com/hiddify/hiddify-next/releases)
-- [(安卓、苹果、win、mac)karing](https://karing.app/download)
-
-## 已适配自适应订阅内容
-   - [v2rayN](https://github.com/2dust/v2rayN)
-   - [v2rayU](https://github.com/yanue/V2rayU/releases)
-   - [sing-box](https://github.com/SagerNet/sing-box)
+## 已适配订阅工具 [点击进入视频教程](https://youtu.be/xGOL57cmvaw) [点进进入karing视频教程](https://youtu.be/M3vLLBWfuFg)
+   - [v2rayN](https://github.com/2dust/v2rayN/releases) 支持(win)
+   - [v2rayNG](https://github.com/2dust/v2rayNG/releases) 支持(安卓)
+   - [v2rayU](https://github.com/yanue/V2rayU/releases) 支持(mac)
+   - [sing-box](https://github.com/SagerNet/sing-box/releases) 支持(安卓、苹果、win、mac)
    - clash.meta（[clash-verge-rev
-](https://github.com/clash-verge-rev/clash-verge-rev)，[Clash Nyanpasu](https://github.com/keiko233/clash-nyanpasu)，ClashX Meta、openclash）
-   - Quantumult X
-   - 小火箭
-   - surge 
-   - [karing](https://karing.app/download)
+](https://github.com/clash-verge-rev/clash-verge-rev)，[Clash Nyanpasu](https://github.com/keiko233/clash-nyanpasu/releases)，ClashX Meta、[openclash](https://github.com/vernesong/OpenClash/releases)）支持(安卓、苹果、win、mac)
+   - [Quantumult X](https://apps.apple.com/us/app/quantumult-x/id1443988620) 支持(苹果)
+   - [小火箭](https://apps.apple.com/us/app/shadowrocket/id932747118) 支持(苹果)
+   - [surge](https://apps.apple.com/us/app/surge-5/id1442620678) 支持(苹果)
+   - [karing](https://karing.app/download) 支持(安卓、苹果、win、mac)
+   - [Hiddify](https://github.com/hiddify/hiddify-next/releases) 支持(安卓、苹果、win、mac)
 
 # 感谢
 [3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)、[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash/config)
